@@ -12,7 +12,7 @@ public class GreetingController {
   @Value("${internal.property}")
   private String internal;
 
-//  @Value("${external.property}")
+  @Value("${external.property}")
   private String external;
 
   @RequestMapping("/greeting")
