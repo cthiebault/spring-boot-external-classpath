@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:config.properties")
 public class PlaceholderConfiguration {
 
   @Bean
